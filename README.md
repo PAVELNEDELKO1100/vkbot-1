@@ -13,7 +13,7 @@
 * [modern-rcon](http://npmjs.com/package/modern-rcon) - Связь с Minecraft-сервером по RCON
 * [request](https://www.npmjs.com/package/request) - Получение информации о сайте
 * [node-vk-bot-api](https://www.npmjs.com/package/node-vk-bot-api) - API для ботов ВКонтакте
-* [executive](https://www.npmjs.com/package/executive) - Используется в каждой команде
+* [executive](https://www.npmjs.com/package/executive) - Эмулятор консоли
 * [log4js](https://www.npmjs.com/package/log4js) - Логирование команд
 
 
@@ -22,7 +22,7 @@
 Для установки модулей можно использовать npm
 
 ```
-npm install
+$ npm install
 ```
 
 ### Конфигурация
