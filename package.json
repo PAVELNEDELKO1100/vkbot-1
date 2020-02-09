@@ -1,0 +1,25 @@
+{
+  "name": "KingNetwork VK",
+  "version": "1.0.0",
+  "description": "KingNetwork VK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "config-yml": "^0.10.3",
+    "log4js": "^4.5.1",
+    "modern-rcon": "^1.0.3",
+    "mysql2": "^1.7.0",
+    "net": "^1.0.2",
+    "node-vk-bot-api": "^2.4.11",
+    "request": "^2.88.0",
+    "vk-io": "^4.0.0-rc.30"
+  },
+  "devDependencies": {
+    "executive": "^1.6.3",
+    "nodemon": "^1.19.4"
+  },
+  "license": "MIT"
+}

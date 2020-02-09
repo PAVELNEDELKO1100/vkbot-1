@@ -1,0 +1,80 @@
+#Системные требования:
+#ОС: Ubuntu 18.04.3 LTS x86_64
+#Пакеты: nodejs, apache2, sed, nmap
+
+#Версия бота:
+version: "5.0"
+
+#Данные от группы ВК:
+vk:
+  token: 9767334bcf72b971b68b8cbf2734ba6332a8461c9962f29124fa89a914d05cae6d49fa38b6a6a002f3b28
+  group_id: 156372234
+  execute_timeout: 50
+  polling_timeout: 25
+
+#Данные от MySQL:
+mysql:
+  host: db.kingnetwork.ru
+  port: 3306
+  user: pmauser
+  password: Fem8Cx4rAqQRuhHc
+  database: kingnetwork_bots
+  connectTimeout: 86400000
+
+#Префикс команд бота (можно оставить пустым):
+prefix: ""
+
+#Ошибки доступа к командам:
+errors:
+  donate: "❌ У Вас нет допуска к данной команде, купите донат на сайте kingnetwork.ru"
+  admin: "❌ У Вас нет допуска к данной команде."
+  server: "❌ У Вас нет доступа к данному режиму."
+    
+#Названия статусов:
+groups:
+  player: "👽 Игрок"
+  donate: "👾 Донатер"
+  admin: "🔰 Администратор"
+
+#Информация о сервере:
+information:
+  name: KingNetwork
+  site: kingnetwork.ru
+  ip: play.kingnetwork.ru
+
+#Словарь для генерации пароля:
+genpass:
+  dict: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+#Данные от RCON (первые три сервера доступны донатерам):
+rcon:
+    server1:
+      name: serv1
+      host: 127.0.0.1
+      port: 25565
+      pass: password
+    server2:
+      name: serv2
+      host: 127.0.0.1
+      port: 25565
+      pass: password
+    server3:
+      name: serv3
+      host: 127.0.0.1
+      port: 25565
+      pass: password
+    server4:
+      name: serv4
+      host: 127.0.0.1
+      port: 25565
+      pass: password
+    server5:
+      name: serv5
+      host: 127.0.0.1
+      port: 25565
+      pass: password
+    server6: 
+      name: serv6
+      host: 127.0.0.1
+      port: 25565
+      pass: password
