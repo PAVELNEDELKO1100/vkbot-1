@@ -7,18 +7,18 @@ version: "5.0"
 
 #Данные от группы ВК:
 vk:
-  token: 9767334bcf72b971b68b8cbf2734ba6332a8461c9962f29124fa89a914d05cae6d49fa38b6a6a002f3b28
-  group_id: 156372234
+  token: token
+  group_id: id
   execute_timeout: 50
   polling_timeout: 25
 
 #Данные от MySQL:
 mysql:
-  host: db.kingnetwork.ru
+  host: host
   port: 3306
-  user: pmauser
-  password: Fem8Cx4rAqQRuhHc
-  database: kingnetwork_bots
+  user: user
+  password: password
+  database: database
   connectTimeout: 86400000
 
 #Префикс команд бота (можно оставить пустым):
